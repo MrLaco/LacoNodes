@@ -12,6 +12,10 @@ struct NodeView: View {
     @Environment(\.modelContext) private var modelContext
     @State var showAddNodeView = false
 
+    var isEditButtonDisabled: Bool {
+        node.children.count == 0
+    }
+
     var node: Node
 
     var body: some View {
@@ -38,7 +42,7 @@ struct NodeView: View {
             }
         }
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
+            ToolbarItem {
                 Button {
                     showAddNodeView.toggle()
                 } label: {
@@ -48,9 +52,10 @@ struct NodeView: View {
                     AddNodeView(nodeView: self)
                 })
             }
-            ToolbarItem(placement: .automatic) {
+            ToolbarItem {
                 EditButton()
                     .tint(.red)
+                    .disabled(isEditButtonDisabled)
             }
         }
         .navigationTitle(node.name)
