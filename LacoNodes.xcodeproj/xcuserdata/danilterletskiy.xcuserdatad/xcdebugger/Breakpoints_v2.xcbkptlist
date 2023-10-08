@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B322AE38-3E7E-4FE6-92D4-8534CFE37A11"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79C3DEBE-B8B1-47D5-AEAF-1869A802C6F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LacoNodes/Views/NodeView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "79C3DEBE-B8B1-47D5-AEAF-1869A802C6F8 - f3436bfd2655ceb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onDelete(perform: Swift.Optional&lt;(Foundation.IndexSet) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in LacoNodes.NodeView.body.getter : some"
+                  moduleName = "LacoNodes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danilterletskiy/KFU/ITIS/Swift%20Projects/LacoNodes/LacoNodes/Views/NodeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "79C3DEBE-B8B1-47D5-AEAF-1869A802C6F8 - f172bb072a6f62c8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (LacoNodes.Node) -&gt; SwiftUI.NavigationLink&lt;SwiftUI.Text, LacoNodes.NodeView&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.DynamicViewContent.onDelete(perform: Swift.Optional&lt;(Foundation.IndexSet) -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in LacoNodes.NodeView.body.getter : some"
+                  moduleName = "LacoNodes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danilterletskiy/KFU/ITIS/Swift%20Projects/LacoNodes/LacoNodes/Views/NodeView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
