@@ -16,7 +16,13 @@ struct AddNodeView: View {
     var body: some View {
         Form {
             Section() {
-                TextField("Name", text: $nodeViewModel.nodeName)
+                HStack {
+                    Text("Generated name: ").bold() + Text("\(nodeViewModel.nodeName)")
+                    Spacer()
+                    Button("Generate") {
+                        nodeViewModel.generateRandomName()
+                    }
+                }
             }
 
             Section() {

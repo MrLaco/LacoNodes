@@ -61,4 +61,3 @@ struct NodeView: View {
         .navigationTitle(node.name)
     }
 }
-
